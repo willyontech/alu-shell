@@ -1,8 +1,5 @@
 #!/bin/bash
-for entry in *
+for d in */
 do
-  if [ -d "$entry" ]
-  then
-    chmod a+x "$entry"
-  fi
+  chmod a+x "$d"
 done
