@@ -1,6 +1,2 @@
 #!/bin/bash
-# Adds execute permission to all subdirectories only
-
-for dir in */; do
-    [ -d "$dir" ] && chmod a+x "$dir"
-done
+chmod a+x */ 2>/dev/null
