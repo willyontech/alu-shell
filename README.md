@@ -1,2 +1,3 @@
-This is my first README.md file
+# alu-shell
 
+Shell scripts for ALU assignments.
