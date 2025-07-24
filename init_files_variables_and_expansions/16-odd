@@ -1,2 +1,2 @@
 #!/bin/bash
-case $(( $1 % 2 )) in 1) echo "odd" ;; esac
+exec awk 'NR % 2 == 1'
