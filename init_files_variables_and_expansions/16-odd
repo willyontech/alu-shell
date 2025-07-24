@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS= read -r line; do echo "$line"; read -r _; done
+case $(( $1 % 2 )) in 1) echo "odd" ;; esac
